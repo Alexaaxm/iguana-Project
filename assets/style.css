@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: white;
+  margin: 0;
+  padding: 7px 0;
+}
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section article.hero .hero-image {
+  width: 100%;
+  display: block;
+}
+
+section .desc-img-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000;
+  color: #fff;
+  font-weight: 200;
+}
+
+section article.desc-img-box .container-column {
+  width: 40%;
+  padding: 50px;
+}
+
+section article.iguana-features {
+  background-color: #1e1a13;
+  width: 100%;
+}
+
+section article.iguana-features .features-box {
+  width: 80%;
+  margin: 0 auto;
+  color: #ffffff;
+  justify-content: center;
+}
+
+section article.iguana-features h2 {
+  text-align: center;
+  padding: 64px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+section article.iguana-features .icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 56px;
+}
+section article.iguana-features .icons .icons-feature {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section article.iguana-features .icons .icons-feature h4 {
+  font-size: 20px;
+  font-weight: 100;
+}
+section article.image-gallery {
+  background-color: #000;
+  opacity: 0.95;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+section article.image-gallery .image-iguana {
+  width: 22%;
+  padding: 65px 12px;
+}
+
+footer {
+  background-color: #1e1a13;
+  color: #ffffff;
+  padding: 36px 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer p.text-footer {
+  margin: 0;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ffffff;
+}
